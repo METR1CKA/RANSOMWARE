@@ -7,3 +7,5 @@ Script de ransomware escrito en `python`
 * Python
 
 # Instrucciones 
+
+1. 
