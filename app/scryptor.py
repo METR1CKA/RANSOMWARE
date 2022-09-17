@@ -24,6 +24,7 @@ class scryptor:
                 open(file, 'wb').write(encrypt_data)
 
             return True
+
         except Exception as e:
             return e
 
@@ -39,6 +40,7 @@ class scryptor:
                 open(file, 'wb').write(decrypt_data)
 
             return True
+
         except Exception as e:
             return e
 

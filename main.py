@@ -102,6 +102,8 @@ except KeyboardInterrupt:
 
     time.sleep(1)
 
-    sc.cleanTerm()
+    ex = scryptor()
+
+    ex.cleanTerm()
 
     sys.exit(0)
