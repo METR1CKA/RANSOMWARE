@@ -12,17 +12,13 @@ Script de ransomware escrito en `python`
 1. Instalar el modulo de `cryptography`
 
 ~~~console
-$ pip install cryptography
-
-Requirement already satisfied: cryptography in /home/metricka/.local/lib/python3.9/site-packages (38.0.1)
-Requirement already satisfied: cffi>=1.12 in /home/metricka/.local/lib/python3.9/site-packages (from cryptography) (1.15.1)
-Requirement already satisfied: pycparser in /home/metricka/.local/lib/python3.9/site-packages (from cffi>=1.12->cryptography) (2.21)
+pip install cryptography
 ~~~
 
 2. Ejecutar el archivo `main.py`
 
 ~~~console
-$ python3 main.py
+python3 main.py
 ~~~
 
 3. Al ejecutar aparecera un apartado para ingresar la ruta de archivos a encriptar o desencriptar, usted debera de ingresar la ruta como se muestra a continuación
